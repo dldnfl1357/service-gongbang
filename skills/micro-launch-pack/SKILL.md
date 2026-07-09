@@ -1,7 +1,7 @@
 ---
 name: micro-launch-pack
 description: Creates launch assets for a micro-product. Use when the user needs landing page copy, Product Hunt copy, Show HN post, X thread, email sequence, community post, waitlist copy, pricing copy, or a 48-hour launch checklist.
-license: Apache-2.0
+license: MIT
 ---
 
 # Micro Launch Pack

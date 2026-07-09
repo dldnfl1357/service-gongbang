@@ -1,7 +1,7 @@
 ---
 name: micro-founder-loop
 description: End-to-end micro-product startup workflow. Use when the user wants to go from idea, niche, pain point, or blank slate to a launch-ready micro-SaaS plan using market signal, offer/spec, build loop, and launch assets across Claude Code, Codex, or Gemini.
-license: Apache-2.0
+license: MIT
 ---
 
 # Micro Founder Loop

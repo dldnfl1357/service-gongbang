@@ -1,7 +1,7 @@
 ---
 name: micro-market-signal
 description: Finds and scores painful, buildable micro-SaaS opportunities from market signals. Use when the user needs product ideas, niche validation, customer pain research, competitor gaps, or a ranked list of micro-product opportunities before writing a spec.
-license: Apache-2.0
+license: MIT
 ---
 
 # Micro Market Signal

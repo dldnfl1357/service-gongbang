@@ -1,7 +1,7 @@
 ---
 name: micro-build-loop
 description: Drives Claude Code, Codex, or Gemini through a fast micro-product implementation loop. Use when the user has a V0 spec and wants repo inspection, task slicing, agent handoff prompts, implementation, verification, review, or ship readiness.
-license: Apache-2.0
+license: MIT
 ---
 
 # Micro Build Loop

@@ -1,7 +1,7 @@
 ---
 name: micro-offer-spec
 description: Converts a market signal or rough product idea into a narrow paid V0 spec. Use when the user needs positioning, ICP, pricing, feature cuts, user flows, data model, acceptance tests, or a build-ready micro-SaaS specification.
-license: Apache-2.0
+license: MIT
 ---
 
 # Micro Offer Spec
