@@ -1,0 +1,4 @@
+interface:
+  display_name: "Micro Market Signal"
+  short_description: "Find painful, buildable micro-SaaS ideas"
+  default_prompt: "Use $micro-market-signal to find validated micro-SaaS pain points in a niche."

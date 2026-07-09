@@ -1,0 +1,4 @@
+interface:
+  display_name: "Micro Launch Pack"
+  short_description: "Create launch assets for a micro-product"
+  default_prompt: "Use $micro-launch-pack to prepare Product Hunt, HN, X, and email launch copy."

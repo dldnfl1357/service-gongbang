@@ -1,0 +1,6 @@
+{
+  "name": "service-gongbang",
+  "version": "0.1.0",
+  "description": "Agent Skills for market signal, paid V0 specs, build loops, and launch packs for micro-products.",
+  "contextFileName": "GEMINI.md"
+}

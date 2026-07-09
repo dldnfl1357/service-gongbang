@@ -1,0 +1,4 @@
+interface:
+  display_name: "Micro Offer Spec"
+  short_description: "Turn a signal into a narrow paid offer"
+  default_prompt: "Use $micro-offer-spec to turn this pain point into a paid V0 spec."

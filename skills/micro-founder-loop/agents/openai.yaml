@@ -1,0 +1,4 @@
+interface:
+  display_name: "Micro Founder Loop"
+  short_description: "Run the full micro-product pipeline"
+  default_prompt: "Use $micro-founder-loop to take a micro-product from idea to launch-ready plan."

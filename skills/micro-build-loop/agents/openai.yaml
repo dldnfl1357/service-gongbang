@@ -1,0 +1,4 @@
+interface:
+  display_name: "Micro Build Loop"
+  short_description: "Drive Claude, Codex, or Gemini to ship V0"
+  default_prompt: "Use $micro-build-loop to turn this spec into a verified V0 build plan."
