@@ -22,9 +22,19 @@ curl -fsSL https://raw.githubusercontent.com/dldnfl1357/service-gongbang/main/in
 
 지원 대상:
 
+- CLI: `~/.local/bin/gongbang`
 - Claude Code: `~/.claude/skills/`
 - Codex: `${CODEX_HOME:-~/.codex}/skills/`
 - Gemini CLI: `~/.gemini/extensions/service-gongbang`
+
+## 곁질문
+
+```bash
+gongbang run codex
+gongbang side "방금 말한 trust boundary가 뭐야?"
+```
+
+`run`은 메인 AI 세션을 그대로 실행하면서 로그를 남깁니다. 작업 중 다른 터미널에서 `side`를 실행하면 최신 로그를 읽고 별도 답변만 합니다.
 
 ## 스킬
 

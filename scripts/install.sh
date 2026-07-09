@@ -62,8 +62,19 @@ install_gemini() {
   echo "linked: $dest/$name"
 }
 
+install_cli() {
+  local dest="$HOME/.local/bin"
+  mkdir -p "$dest"
+  link_one "$ROOT/bin/gongbang" "$dest"
+  case ":$PATH:" in
+    *":$dest:"*) ;;
+    *) echo "hint: add $dest to PATH to run 'gongbang' from any directory" ;;
+  esac
+}
+
 case "$TARGET" in
   all)
+    install_cli
     install_claude
     install_codex
     install_gemini
@@ -77,8 +88,11 @@ case "$TARGET" in
   gemini)
     install_gemini
     ;;
+  cli)
+    install_cli
+    ;;
   *)
-    echo "usage: $0 [all|claude|codex|gemini]" >&2
+    echo "usage: $0 [all|claude|codex|gemini|cli]" >&2
     exit 2
     ;;
 esac

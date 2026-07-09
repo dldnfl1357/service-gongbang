@@ -8,7 +8,7 @@ INSTALL_DIR="${SERVICE_GONGBANG_HOME:-${MICROFOUNDRY_HOME:-$HOME/.service-gongba
 
 usage() {
   cat >&2 <<'EOF'
-usage: install.sh [all|claude|codex|gemini]
+usage: install.sh [all|claude|codex|gemini|cli]
 
 Environment overrides:
   SERVICE_GONGBANG_REPO   Git URL to clone
@@ -63,7 +63,7 @@ resolve_root() {
 }
 
 case "$TARGET" in
-  all|claude|codex|gemini) ;;
+  all|claude|codex|gemini|cli) ;;
   *)
     usage
     exit 2
